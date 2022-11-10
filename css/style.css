@@ -1,0 +1,382 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.holder{
+    width: 1200px;
+    margin: auto;
+}
+img{
+    display: block;
+}
+ul{
+    list-style-type: none;
+}
+.t-style{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+h4{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #566366;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common css ends  */
+/* menu style starts here  */
+nav{
+    background: #252d2f;
+}
+nav .holder{
+    background: #252d2f;
+    display: flex;
+}
+nav .holder .logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .holder .menu{
+    width: 85%;
+}
+nav .holder .menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav .holder .menu ul li{
+    position: relative;
+}
+nav .holder .menu ul li:hover >a{
+    color: #2ecc71;
+}
+nav .holder .menu ul li a{
+    color: #fff;
+    background: #252d2f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 28px 19px;
+    display: inline-block;
+    transition: .7s;
+}
+nav .holder .menu ul li ul{
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    display: none;
+    width: 120px;
+    background: #252d2f;
+}
+nav .holder .menu ul li:hover > ul{
+    display: block;
+}
+/* menu style ends here  */
+/* banner style starts here  */
+.banner{
+    background: url(../image/ban.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner .b-text{
+    text-align: center;
+    line-height: 99px;
+}
+.banner .b-text h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.banner .b-text a{
+    color: #fff; 
+    padding: 20px 34px;
+    border: solid 2px #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.ban-sec .t-style{
+    display: flex;
+}
+.ban-sec .t-style .ban-text{
+    color: #566366;
+    padding: 100px 50px 100px 0;
+}
+.ban-sec .t-style .ban-text h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+.ban-sec .t-style .ban-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: none
+}
+/* banner style ends here  */
+/* about style starts here  */
+.about{
+    display: flex;
+}
+#ab .holder h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+    padding-bottom: 48px;
+}
+#ab .holder p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #566366;
+    padding-bottom: 48px;
+}
+.about .ab-pic{
+    background: url(../image/ab-pic\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    width: 610px;
+}
+.about .holder{
+    width: 999px;
+    background: #f2f2f1;
+}
+.about .holder .ab-child{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 67px 0;
+    width: 100%;
+}
+.about .holder .ab-child .child{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 60px 38px 0;
+}
+.about .holder .ab-child .child img{
+   padding-right: 28px;
+}
+.about .holder .ab-child .child h4{
+    padding-bottom: 35px;
+}
+.about .holder .ab-child .child p{
+    width: 246px;
+}
+#ab .about .holder{
+    padding: 100px 0 0 100px;
+}
+/* about style ends here  */
+#skill .holder{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+#skill .holder .t-style{
+    color: #566366;
+    width: 50%;
+    padding-right: 90px;
+}
+#skill .holder .skil-bar{
+    width: 50%;
+}
+#skill .holder .skil-tx p{
+    padding-bottom: 50px;
+}
+#skill .holder .skil-tx a{
+    color: #2dcb71; 
+    padding: 20px 34px;
+    border: solid 2px #2dcb71;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#skill .holder .skil-tx h4{
+    padding-bottom: 45px;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.bar{
+    width: 560px;
+    height: 30px;
+    background: #f2f2f1;
+}
+.bar-l{
+    width: 520px;
+    height: 30px;
+    background: #2ecc71;
+}
+.b-8{
+    width: 475px;
+}
+.b-7{
+    width: 357px;
+}
+.skil-bar h4{
+    color: #566366;
+    padding-bottom: 20px;
+}
+.bar-l p{
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    color: #fff;
+    padding-right: 10px;
+}
+.skil-bar .s-ban{
+    padding: 20px 0;
+}
+/* resume style start here  */
+#resume{
+    background: #f2f2f1;
+    padding: 100px 70px;
+}
+#resume .holder{
+    text-align: center;
+}
+#resume .holder{
+    font-size: 30px;
+}
+#resume h4{
+    font-size: 30px;
+}
+#resume p{
+    padding: 45px 0;
+}
+#resume a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2dcb71;
+    padding: 20px;
+    border: 2px solid #2dcb71;
+}
+/* resume style ends here  */
+/* edu style starts here  */
+.edu .holder{
+    padding-top: 100px;
+    border-bottom: 1px solid #566366;
+}
+.edu .holder .edu-info{
+    width: 50%;
+}
+.edu .holder .edu-info p{
+    width: 539px;
+    padding: 50px 0;
+}
+.edu .holder .edu-det{
+    width: 50%;
+    margin-top: 70px;
+}
+.edu .holder .edu-det div{
+    padding-bottom: 70px;
+}
+.edu .holder .edu-det h4{
+    font-size: 22px;
+}
+.edu .holder .edu-det .gpa{
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 2px;
+    background: #2dcb71;
+    margin: 14px 0;
+}
+/* edu style ends here  */
+/* work style starts here  */
+    .work .holder{
+        border: none;
+    }
+/* work style ends here  */
+/* jhon style start here  */
+#tag{
+    padding: 100px 0;
+    background: #f2f2f1;
+}
+#tag .holder{
+    text-align: center;
+}
+#tag .holder div{
+    width: 1045px;
+    margin: auto;
+}
+#tag .holder div h4{
+    font-size: 18px;
+}
+/* Portfolio style starts here  */
+#portfolio .holder{
+    padding: 100px;
+}
+#portfolio .por-tx{
+    text-align: center;
+}
+#portfolio .por-tx h4{
+    padding-bottom: 20px;
+}
+#portfolio .por-tx p{
+    width: 1020px;
+    padding-bottom: 77px;
+}
+#portfolio .por-img .imag{
+    position: relative;
+    width: calc(100% / 3);
+    padding: 20px;
+}
+#portfolio .por-img .imag .over{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(51, 170, 106, .75);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .7s;
+    /* left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px; */
+}
+#portfolio .por-img .imag .photo{
+    width: 100%;
+    height: 100%;
+}
+#portfolio .por-img .imag:hover .over{
+    opacity: 1;
+    visibility: visible;
+
+}
